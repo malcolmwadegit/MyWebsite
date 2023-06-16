@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malcolm Wade</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.css"> <!-- Optional: Link to your CSS file -->
+    <script src="script.js"></script> <!-- Optional: Link to your JavaScript file -->
+</head>
+<body>
+    <!-- Your HTML content goes here -->
+    <header>
+
+        {% include 'partials/_header.html' %}
+       
+        <!-- Additional header content -->
+    </header>
+    
+    <nav>
+        <!-- Navigation menu goes here -->
+    </nav>
+    
+    <main>
+        <body style="background-color:#4578812c">
+        {% block content %}
+        
+        
+        {% endblock %}
+
+
+        <!-- Main content goes here -->
+    </main>
+    
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+</body>
+</html>

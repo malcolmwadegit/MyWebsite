@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+{% block content %}
+
+
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card text-white bg-dark mb-3" style="max-width: 50rem;">
+            <div class="shadow-lg p-3 mb-5 sm rounded">
+                <label for="exampleFormControlInput1" class="form-label ">Your Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="shadow-lg p-3 mb-5 sm rounded">
+                <label for="exampleFormControlTextarea1" class="form-label">Contect Me</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your message">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+            <div class="d-flex flex-row-reverse bd-highlight"></div>
+            <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
+    </div>
+</div>
+
+{% endblock %}
