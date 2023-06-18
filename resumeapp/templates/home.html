@@ -3,18 +3,17 @@
 {% block content%}
 <!-- card head-->
 
-
 <div class="container">
   <div class="row">
       <div class="col-md-4">
         <div class="container">
           <div class="row">
             <div class="d-flex">
-              <div class="card boarder-secondary text-white bg-dark" style="max-width: 30;">
+              <div class="card text-dark bg-light border border-dark" style="max-width: 50;">
               <div class="card-body">
                 <h4 class="card-title">About Me
                 </h4>
-                <h6 class="card-subtitle text-emphasis">An analyst and programmer moonlighting as a chef and barrista.  </h6>
+                <h6 class="card-subtitle justify-content-center">An analyst and programmer moonlighting as a chef and barrista.  </h6>
                 <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
                   <rect width="100%" height="100%" fill="#868e96"></rect>
                   <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
@@ -38,63 +37,113 @@
       </div>
     </div>
     <!-- end card head-->
-    <div class="col-8">
-        <div class="col-lg-8">
-          <div class = "row">
+    <div class="col-md-8">
+<!--         <div class="col-md-8"> -->
+<!--           <div class = "row"> -->
+
+<!--   Begin Card  -->
+
             <dl class="row">
-              <div class="card text-white bg-dark">
-                <span class="placeholder col-12 "style="opacity: 0;"></span>
-
-                <dt class="col-sm-4 h4 ">experience
-                </dt>
-                  <dd class="col-sm-8">
-                    <dl class="row">
-                      <dt class="col-sm-6 h5">
-                        
-                        <p >Business Analyst </p>
-
-                      
-
-                      </dt>
-                      <dd class="col-sm-6 ">
-                        
-                      <p class="text"> Sacramento River Cats</p>
-                        
-                        <p> <em>
+              <div class="card text-dark bg-light border border-dark" style="max-width: 30;">
+                <div class="card-body">
+                  <div class="card-title"><font size="+3">Experience</div></font>
+                  <div class="card-text">
+                    <span class="placeholder col-12 "style="opacity: 0;"></span>
+                    <div class="text-center">
+                      <div class="header">
+                        <ul class="nav nav-tabs" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#exp1" aria-selected="true" role="tab">Businesss Analyst</a>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#exp2" aria-selected="false" tabindex="-1" role="tab">Analyst</a>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#exp3" aria-selected="false" tabindex="-1" role="tab">Buesiness Analysis</a>
+                          </li>
                           
-                          My responsibilities included working with multiple departments within the Sacramento River Cats.  
-                      
-                        </em>.</p>
-                      </dd>
-                    </dl>
+                        </ul>
+                        <div id="myTabContent" class="tab-content">
 
-                    <dl class="row">
-                      <dt class="col-sm-6 h5">
-                        
-                        Resource Management Analyst
-                      
-                      </dt>
-                      <dd class="col-sm-6">
-                        
-                        CalTrans
+                          <div class="tab-pane fade show active" id="exp1" role="tabpanel">
+                            <span class="placeholder col-12 "style="opacity: 0;"></span>
 
-                      </dd>
-                    </dl>
-                    <dl class="row">
-                      <dt class="col-sm-6 h5">
-                      
-                        Business Analysis
-                      
-                      </dt>
-                      <dd class="col-sm-6">
-                        
-                        Multiple Restaurants
-                      
-                      </dd>
-                    </dl>
+                            <font size="+2">  <p class="text-emphasis"> Company: Sacramento River Cats</p></font>
+
+                            
+                            <p>
+                              <div class="text-body">
+                                <li>
+                                  My responsibilities included working with multiple departments within the Sacramento River Cats.  
+                                </li>     
+                                
+                                <li>
+                                  During the baseball season my daily activities included gathering data about previous games played regarding concessions performance, social media performance, and ticket sales which was then summarized in a report and distributed to each department head and general manager.
+
+
+                                </li>
+                                <li>
+                                  During the off-season I worked with the marketing department to analyze and test our marketing strategies while working with the sales team to analyze season ticket sales. 
+
+                                  
+                                </li>
+                                <li>
+                                  The biggest project I lead was analyzing touch points between sales reps and season ticket holders in a five-year span to find trends in which touch points lead to better sales performance.
+
+
+                                </li>
+                              </div>
+
+                            </p>
+                          </div>
+                          <div class="tab-pane fade" id="exp2">
+                            <span class="placeholder col-12 "style="opacity: 0;"></span>
+
+                            <font size="+2">  <p class="text-emphasis"> Company: CalTrans</p></font>
+
+
+                            <p>
+                              <li>
+                                My resposibilities with Caltrans included using sql to gather data from our local database and analyze the spending of each of the 13 districts. 
+                              </li>     
+                              
+                              <li>
+                                 I also worked with the research team within caltrans to look into potential upcomming projects and how that would effect the budgets of each district 
+                              </li>
+                              <li>
+                                One of the morse significant projects included summarizing and analyzing the spending of the fiscal year and worked with the resource management team to create a budget for the next fiscal year and what the spending projects would look like throughout the year. 
+
+                                
+                              </li>
+
+                            </p>
+
+                          </div>
+                          <div class="tab-pane fade" id="exp3">
+                            <span class="placeholder col-12 "style="opacity: 0;"></span>
+
+                            <font size="+2">  <p class="text-emphasis"> Company: Multiple Restaurants</p></font>
+
+
+                            <p>
+
+                              For the past two years I worked with restaurants as a chef and used our POS data to analyze our sales and make business decisions based on such. Most of this data was used to gain insights about how popular dishes were and what days are most busy so we can staff appropriately. 
+
+
+                            </p>
+
+
+
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+
                     
-                   
-                  </dd>
+                    
+                    
+                  </div>
+                </div>
               </div>
 
               </dlV>
@@ -103,26 +152,28 @@
               <span class="placeholder col-12 "style="opacity: 0;"></span>
 
 
+<!--   Begin Card  -->
+
             
-              <div class="card text-white bg-dark">
-                <dt class="col-sm-4 h4">
+              <div class="card text-dark bg-light border border-dark" style="max-width: 30;">
+                <dt class="col-md-4 h4">
                   <span class="placeholder col-12 "style="opacity: 0;"></span>
 
                   Education
                 
                 </dt>
 
-                <dd class="col-sm-8">
+                <dd class="col-md-8">
                   <section>
 
                     <dl class="row">
-                      <dt class="col-sm-6 h5">
+                      <dt class="col-md-6 h5">
                         Sacramento City College 
 
 
                       
                       </dt>
-                      <dd class="col-sm-6">
+                      <dd class="col-md-6">
                         
                         Associates Degree, Pyschology 2014-2017
 
@@ -131,12 +182,12 @@
                       </dd>
                     </dl>
                     <dl class="row">
-                      <dt class="col-sm-6 h5">
+                      <dt class="col-md-6 h5">
                         
                         CSU, Sacramento
                       
                       </dt>
-                      <dd class="col-sm-6">
+                      <dd class="col-md-6">
                         
                         Applied Mathematics 2017-2019 
                       
@@ -157,52 +208,56 @@
               <span class="placeholder col-12 "style="opacity: 0;"></span<span class="placeholder col-12 "style="opacity: 0;"></span>
               <span class="placeholder col-12 "style="opacity: 0;"></span>
 
-              <div class="card text-white bg-dark">
+
+<!--   Begin Card  -->
+
+              <div class="card text-dark bg-light border border-dark" style="max-width: 50;">
                 <span class="placeholder col-12 "style="opacity: 0;"></span>
+                <div class="justify-content-center"></div>
+                  <dt class="col-sm-6 h4">Certificates</dt>
 
-                <dt class="col-sm-6 h4">Certificates</dt>
-                <dd class="col-sm-6">
-                  <section>
-                    <ul class="font-weight-bold">
-                      
-                      <li>Google Data Analytics</li>        
-                      <li>Pyton</li>
-                      <li>Django</li>
-                      <li>R</li>
-                      <li>MatLab</li>
-                      <li>JavaScript</li>
-              
-                    </ul>
-              
-                  </section>
-
-                  
-
-                </dd>
-              
+                    <section>
+                      <ul class="font-weight-bold">
+                        
+                        <li>Google Data Analytics</li>        
+                        <li>Pyton</li>
+                        <li>Django</li>
+                        <li>R</li>
+                        <li>MatLab</li>
+                        <li>JavaScript</li>
                 
-                <dt class="col-sm-6 h4">Skills</dt>
-                <dd class="col-sm-6">
-                  <section>
-                    <ul class="skill-set">
-        
-                                
-                      <li>Pyton</li>
-                      <li>Django</li>
-                      <li>Bootstrap</li>
-                      <li>HTML</li>
-                      <li>JavaScript</li>
-                      <li>SQL and MYSQL</li>
-                      <li>JQUERY</li>
-                      <li>Microsoft Suite</li>
-                      <li>AWS</li>
-                      <li>Microsoft Azure</li>
-                    </ul>
+                      </ul>
+                
+                    </section>
+
                     
-                  </section>
+
+
+                
                   
-                </dd>
-                </div>
+                  <dt class="col-sm-6 h4">Skills</dt>
+
+                    <section>
+                      <ul class="skill-set">
+          
+                                  
+                        <li>Pyton</li>
+                        <li>Django</li>
+                        <li>Bootstrap</li>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                        <li>SQL and MYSQL</li>
+                        <li>JQUERY</li>
+                        <li>Microsoft Suite</li>
+                        <li>AWS</li>
+                        <li>Microsoft Azure</li>
+                      </ul>
+                      
+                    </section>
+                    
+
+                </div>  
+              </div>
             </dl>
 
 
